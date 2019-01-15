@@ -1,0 +1,13 @@
+<form [formGroup]="loginForm">
+  <div class="login-form">
+      <mat-form-field>
+          <mat-label>Username</mat-label>
+          <input formControlName="username" matInput />
+      </mat-form-field>
+
+      <mat-form-field floatLabel="always">
+          <mat-label>Password</mat-label>
+          <input type="password" formControlName="password" matInput />
+      </mat-form-field>
+  </div>
+</form>
